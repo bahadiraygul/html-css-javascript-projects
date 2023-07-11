@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/349b93fb1d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">To Do App</h1>
+            <form class="search">
+                <input class="form-control" type="text" name="search" placeholder="Ara...">
+            </form>
+        </header>
+
+        <ul class="list-group text-light todos">
+                <li class="list-group-item d-flex justify-content-between align-items-center delete">
+                <span>Yüzmeye git</span>
+                <i class="fa-solid fa-trash-can" style="color: #511f26;"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>Manavdan Limon al</span>
+                    <i class="fa-solid fa-trash-can delete" style="color: #511f26;"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center delete">
+                    <span>Javascript çalış</span>
+                    <i class="fa-solid fa-trash-can" style="color: #511f26;"></i>
+                </li>
+         </ul>
+         <form class="text-center my-4 add">
+            <label  class="text-light">Yeni iş ekle</label>
+            <input class="form-control m-auto" type="text" name="add" />
+         </form>
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="bahadir.js"></script>
+</body>
+</html>
